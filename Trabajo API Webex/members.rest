@@ -1,0 +1,16 @@
+// Members
+###
+GET https://webexapis.com/v1/memberships
+Content-Type: application/json
+Authorization: Bearer ZWQ3MzZhODktNzE4NS00OWJhLWIzM2YtZjc3MTcxMGY3N2JjYWYzMzA5M2EtOTE2_P0A1_ff79c397-9d79-44f7-8296-8858b58f5ba8
+
+###
+POST https://webexapis.com/v1/memberships
+Content-Type: application/json
+Authorization: Bearer ZWQ3MzZhODktNzE4NS00OWJhLWIzM2YtZjc3MTcxMGY3N2JjYWYzMzA5M2EtOTE2_P0A1_ff79c397-9d79-44f7-8296-8858b58f5ba8
+
+{
+  "roomId": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vNjlmMWQ3YTAtOTk5NC0xMWVkLWJhNDYtZmRkZjkxZmJmNzYy",
+  "personEmail": "viniciosoria16@gmail.com",
+  "isModerator": false
+}
