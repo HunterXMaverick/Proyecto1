@@ -1,0 +1,30 @@
+//TEAMS
+###
+GET https://webexapis.com/v1/teams
+Content-Type: application/json
+Authorization: Bearer ZWQ3MzZhODktNzE4NS00OWJhLWIzM2YtZjc3MTcxMGY3N2JjYWYzMzA5M2EtOTE2_P0A1_ff79c397-9d79-44f7-8296-8858b58f5ba8
+
+###
+POST https://webexapis.com/v1/teams
+Content-Type: application/json
+Authorization: Bearer ZWQ3MzZhODktNzE4NS00OWJhLWIzM2YtZjc3MTcxMGY3N2JjYWYzMzA5M2EtOTE2_P0A1_ff79c397-9d79-44f7-8296-8858b58f5ba8
+
+{
+  "name": "Equipo de ejemplo",
+  "description": "Un equipo de ejemplo"
+}
+
+###
+PUT https://webexapis.com/v1/teams/Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1RFQU0vYTU0MmFjNTAtOTQyZS0xMWVkLWExMzItY2RmZmIzYjNjYzYw
+Content-Type: application/json
+Authorization: Bearer ZWQ3MzZhODktNzE4NS00OWJhLWIzM2YtZjc3MTcxMGY3N2JjYWYzMzA5M2EtOTE2_P0A1_ff79c397-9d79-44f7-8296-8858b58f5ba8
+
+{
+  "name": "Equipo de ejemplo actualizado",
+  "description": "Un equipo de ejemplo actualizado"
+}
+
+###
+DELETE https://webexapis.com/v1/teams/Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1RFQU0vYzAwZTliYjAtOTQyZi0xMWVkLWJjYTctN2JiZmYyYzkyNDgy
+Content-Type: application/json
+Authorization: Bearer ZWQ3MzZhODktNzE4NS00OWJhLWIzM2YtZjc3MTcxMGY3N2JjYWYzMzA5M2EtOTE2_P0A1_ff79c397-9d79-44f7-8296-8858b58f5ba8
